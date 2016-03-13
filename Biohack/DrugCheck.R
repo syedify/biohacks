@@ -66,14 +66,7 @@ CommonEffectsDB <- function(drugA, drugB, database){
   setDp <- do.call("paste", setD)
   setC[! setCp %in% setDp, ]
   
-  m <- length(setC$Patient)
-  patients <- setC$Patient
-  temp <- character(m)
-  for (i in 1:m){
-    e <- toString(setC$Effects[i])
-    print(e)
-  }
-  
+  setC
   
   #library(compare)
   #setE <- compare(setD,setC, allowAll=TRUE)
