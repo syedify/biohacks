@@ -75,15 +75,3 @@ CommonEffectsDB <- function(drugA, drugB, database){
 }
 
 
-
-CommonEffectsMerge <- function (){
-  CommonEffectsDB("LETAIRIS","ADCIRCA",test)
-  setD <- merge(setA, setB, all = TRUE)
-  
-  setCp <- do.call("paste", setC)
-  setDp <- do.call("paste", setD)
-  setC[! setCp %in% setDp, ]
-  CommonEffectsDB("LETAIRIS","ADCIRCA",test)
-}
-#CommonEffects("LETAIRIS","REVATIO",test)
-#setC
