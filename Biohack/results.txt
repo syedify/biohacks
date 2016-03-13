@@ -1,0 +1,208 @@
+BLASTP 2.3.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: cold.faa
+           1,610 sequences; 508,974 total letters
+
+
+
+Query= NP_438174.1 glyceraldehyde-3-phosphate dehydrogenase [Haemophilus
+influenzae Rd KW20]
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NP_438174.1  glyceraldehyde-3-phosphate dehydrogenase [Haemophilu...  691     0.0  
+NP_438756.2  recombination regulator RecX [Haemophilus influenzae...  30.4    0.038
+NP_439524.2  condesin subunit F [Haemophilus influenzae Rd KW20]      31.2    0.043
+NP_439161.1  ribonuclease P [Haemophilus influenzae Rd KW20]          26.2    0.65 
+NP_439437.1  type I restriction enzyme [Haemophilus influenzae Rd...  24.3    6.1  
+NP_438504.1  tRNA (guanine-N(7)-)-methyltransferase [Haemophilus ...  23.9    7.3  
+NP_438752.1  carbamate kinase [Haemophilus influenzae Rd KW20]        23.5    8.6  
+NP_438624.1  coproporphyrinogen III oxidase [Haemophilus influenz...  23.5    8.8  
+NP_438800.1  50S ribosomal protein L10 [Haemophilus influenzae Rd...  23.1    9.9  
+
+
+>NP_438174.1 glyceraldehyde-3-phosphate dehydrogenase [Haemophilus influenzae 
+Rd KW20]
+Length=339
+
+ Score = 691 bits (1782),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 339/339 (100%), Positives = 339/339 (100%), Gaps = 0/339 (0%)
+
+Query  1    MAIKIGINGFGRIGRIVFRAAQHRDDIEVVGINDLIDVEYMAYMLKYDSTHGRFDGTVEV  60
+            MAIKIGINGFGRIGRIVFRAAQHRDDIEVVGINDLIDVEYMAYMLKYDSTHGRFDGTVEV
+Sbjct  1    MAIKIGINGFGRIGRIVFRAAQHRDDIEVVGINDLIDVEYMAYMLKYDSTHGRFDGTVEV  60
+
+Query  61   KDGNLVVNGKTIRVTAERDPANLNWGAIGVDIAVEATGLFLTDETARKHITAGAKKVVLT  120
+            KDGNLVVNGKTIRVTAERDPANLNWGAIGVDIAVEATGLFLTDETARKHITAGAKKVVLT
+Sbjct  61   KDGNLVVNGKTIRVTAERDPANLNWGAIGVDIAVEATGLFLTDETARKHITAGAKKVVLT  120
+
+Query  121  GPSKDATPMFVRGVNFNAYAGQDIVSNASCTTNCLAPLARVVHETFGIKDGLMTTVHATT  180
+            GPSKDATPMFVRGVNFNAYAGQDIVSNASCTTNCLAPLARVVHETFGIKDGLMTTVHATT
+Sbjct  121  GPSKDATPMFVRGVNFNAYAGQDIVSNASCTTNCLAPLARVVHETFGIKDGLMTTVHATT  180
+
+Query  181  ATQKTVDGPSAKDWRGGRGASQNIIPSSTGAAKAVGKVLPALNGKLTGMAFRVPTPNVSV  240
+            ATQKTVDGPSAKDWRGGRGASQNIIPSSTGAAKAVGKVLPALNGKLTGMAFRVPTPNVSV
+Sbjct  181  ATQKTVDGPSAKDWRGGRGASQNIIPSSTGAAKAVGKVLPALNGKLTGMAFRVPTPNVSV  240
+
+Query  241  VDLTVNLEKPASYDAIKQAIKDAAEGKTFNGELKGVLGYTEDAVVSTDFNGCALTSVFDA  300
+            VDLTVNLEKPASYDAIKQAIKDAAEGKTFNGELKGVLGYTEDAVVSTDFNGCALTSVFDA
+Sbjct  241  VDLTVNLEKPASYDAIKQAIKDAAEGKTFNGELKGVLGYTEDAVVSTDFNGCALTSVFDA  300
+
+Query  301  DAGIALTDSFVKLVSWYDNETGYSNKVLDLVAHIYNYKG  339
+            DAGIALTDSFVKLVSWYDNETGYSNKVLDLVAHIYNYKG
+Sbjct  301  DAGIALTDSFVKLVSWYDNETGYSNKVLDLVAHIYNYKG  339
+
+
+>NP_438756.2 recombination regulator RecX [Haemophilus influenzae Rd KW20]
+Length=152
+
+ Score = 30.4 bits (67),  Expect = 0.038, Method: Compositional matrix adjust.
+ Identities = 15/73 (21%), Positives = 32/73 (44%), Gaps = 1/73 (1%)
+
+Query  158  LARVVHETFGIKDGLMTTVHATTATQKTVDGPSAKDWRGGRGASQNIIPSSTGAAKAVGK  217
+            L+R  +  F +++ +     +       +    AK+W+  R  S+N + S       VG+
+Sbjct  13   LSRREYSEFELRNKMQEKNFSEEEIDDALSRCQAKNWQSDRRFSENYLNSRVQKGYGVGR  72
+
+Query  218  VLPALNGKLTGMA  230
+            +   L  +L G++
+Sbjct  73   IRQELR-QLKGVS  84
+
+
+>NP_439524.2 condesin subunit F [Haemophilus influenzae Rd KW20]
+Length=444
+
+ Score = 31.2 bits (69),  Expect = 0.043, Method: Compositional matrix adjust.
+ Identities = 19/85 (22%), Positives = 34/85 (40%), Gaps = 7/85 (8%)
+
+Query  153  NCLAPLARVVHETFGIKDGLMTTVHATTATQKTVDGPSA----KDWRGGRGASQNIIPSS  208
+            N  APL   V E F   D +  +       Q+++    A    KDW+    + + ++  +
+Sbjct  159  NVFAPLKYSVAEIF---DSIDLSQRIMDENQQSIKDEIAELLTKDWQAAISSCERLLDET  215
+
+Query  209  TGAAKAVGKVLPALNGKLTGMAFRV  233
+            +G  + +   L A   KL     R+
+Sbjct  216  SGNLRELQDTLNAAGDKLQAQLLRI  240
+
+
+>NP_439161.1 ribonuclease P [Haemophilus influenzae Rd KW20]
+Length=119
+
+ Score = 26.2 bits (56),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 33/80 (41%), Gaps = 8/80 (10%)
+
+Query  231  FRVPTPNVSVVDLTVNLEKPA-SYDAIKQAIKDAAEGKTFNGELKGVLGYTEDAVVSTDF  289
+            FR  TP ++++    NLE P       K+ +K A E       ++     ++  + + DF
+Sbjct  26   FRASTPEITILARKNNLEHPRLGLTVAKKHLKRAHERNRIKRLVRESFRLSQHRLPAYDF  85
+
+Query  290  NGCALTSVFDADAGIALTDS  309
+                   VF A  GI   D+
+Sbjct  86   -------VFVAKNGIGKLDN  98
+
+
+>NP_439437.1 type I restriction enzyme [Haemophilus influenzae Rd KW20]
+Length=1055
+
+ Score = 24.3 bits (51),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 20/66 (30%), Positives = 29/66 (44%), Gaps = 10/66 (15%)
+
+Query  64   NLVVNGKTIRVTAERDPANLNWGAIGVDIAVEATGLFLTDETARKHITAGAKKVVLTGPS  123
+            N VV+ K + V + R         I VD+  +   L    E    +I  GA K+V+TG +
+Sbjct  545  NEVVDSKAMMVVSSRQ--------ICVDLYNQIIALH--PEWHSDNINEGAIKIVMTGSA  594
+
+Query  124  KDATPM  129
+             D   M
+Sbjct  595  SDTPEM  600
+
+
+>NP_438504.1 tRNA (guanine-N(7)-)-methyltransferase [Haemophilus influenzae 
+Rd KW20]
+Length=246
+
+ Score = 23.9 bits (50),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 24/42 (57%), Gaps = 3/42 (7%)
+
+Query  55  DGTVEVKDGNLVVNGKTIRVTA-ERDPANLNWGAIGVDIAVE  95
+           DG  + K  + V+  +T R++  +R+  N NWG +G+D   E
+Sbjct  21  DGRYKRKVRSFVL--RTGRLSEFQRNMMNDNWGTLGLDYQTE  60
+
+
+>NP_438752.1 carbamate kinase [Haemophilus influenzae Rd KW20]
+Length=310
+
+ Score = 23.5 bits (49),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 14/35 (40%), Gaps = 0/35 (0%)
+
+Query  282  DAVVSTDFNGCALTSVFDADAGIALTDSFVKLVSW  316
+            +AV+  D     L    DAD  I  TD     V W
+Sbjct  201  EAVIDKDLCSALLAENLDADLFIIATDVSATFVDW  235
+
+
+>NP_438624.1 coproporphyrinogen III oxidase [Haemophilus influenzae Rd KW20]
+Length=383
+
+ Score = 23.5 bits (49),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 36/88 (41%), Gaps = 5/88 (6%)
+
+Query  31   GINDLIDVEYMAYMLKYDSTHGRFDGTVEVKDGNLVVNGKTIRVTAERDPANLNWGAIGV  90
+            G   L   E +AY+LK       F+  +E+    L  N  T  V AER    ++ G + +
+Sbjct  71   GTPSLFSAESIAYLLKEIKKQIDFEDNIEI---TLEANPGT--VEAERFKGYVSAGIMRI  125
+
+Query  91   DIAVEATGLFLTDETARKHITAGAKKVV  118
+             + +++          R H  A AK  V
+Sbjct  126  SMGIQSFNDDKLQRLGRIHNAAEAKSAV  153
+
+
+>NP_438800.1 50S ribosomal protein L10 [Haemophilus influenzae Rd KW20]
+Length=163
+
+ Score = 23.1 bits (48),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 18/67 (27%), Positives = 28/67 (42%), Gaps = 4/67 (6%)
+
+Query  11   GRIGRIVFRAAQHRDDIEVVGI---NDLIDVEYMAYMLKYDSTHGRFDGTV-EVKDGNLV  66
+            G   R+    A+  D  E+ G      + DVE++A +  Y+    R  GT+ E   G L 
+Sbjct  90   GARARLFKEFAKANDKFEIKGAAFEGKIQDVEFLATLPTYEEAIARLMGTMKEAAAGKLA  149
+
+Query  67   VNGKTIR  73
+                 +R
+Sbjct  150  RTFAALR  156
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 100065834
+
+
+  Database: cold.faa
+    Posted date:  Mar 12, 2016  4:07 PM
+  Number of letters in database: 508,974
+  Number of sequences in database:  1,610
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
