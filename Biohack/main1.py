@@ -3,7 +3,7 @@ import os
 import time
 import xml.etree.ElementTree as ET
 
-
+#THIS IS JUST A BAKUP MAIN FUNCTION IS MAIN.PY
 def runBlast(cmd1, cmd2):
 	os.system(cmd1)
 	time.sleep(1)
